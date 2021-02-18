@@ -1,0 +1,61 @@
+{
+    "name": "swatty007/laravel-context-prohibited-rule",
+    "description": "Simple validation rule to disallow application related words within passwords.",
+    "keywords": [
+        "swatty007",
+        "laravel-context-prohibited-rule",
+        "laravel",
+        "validation",
+        "password",
+        "rule"
+    ],
+    "homepage": "https://github.com/swatty007/laravel-context-prohibited-rule",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Martin Niehoff",
+            "email": "info@martin-niehoff.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0|^5.0",
+        "phpunit/phpunit": "^8.0",
+        "phpmd/phpmd": "@stable",
+        "phpmetrics/phpmetrics": "^2.7",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swatty007\\LaravelContextProhibitedRule\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swatty007\\LaravelContextProhibitedRule\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-f": "vendor/bin/phpunit --filter",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --config=.php_cs.dist",
+        "smell": "vendor/bin/phpmd src/ html cleancode,naming --reportfile ./build/phpmd.html",
+        "metrics": "vendor/bin/phpmetrics --report-html=./build/metrics src/"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Swatty007\\LaravelContextProhibitedRule\\ContextProhibitedServiceProvider"
+            ]
+        }
+    }
+}
