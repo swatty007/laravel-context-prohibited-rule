@@ -3,8 +3,8 @@
 ![Package Banner](./docs/banner.png "Package Banner")
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/swatty007/laravel-context-prohibited-rule.svg?style=flat-square)](https://packagist.org/packages/swatty007/laravel-context-prohibited-rule)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/travis/swatty007/laravel-context-prohibited-rule/master.svg?style=flat-square)](https://travis-ci.org/swatty007/laravel-context-prohibited-rule)
+[![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Build Status](https://www.travis-ci.com/swatty007/laravel-context-prohibited-rule.svg?branch=main)](https://www.travis-ci.com/swatty007/laravel-context-prohibited-rule)
 [![StyleCI](https://github.styleci.io/repos/339864266/shield?branch=main)](https://github.styleci.io/repos/339864266?branch=main)
 [![Quality Score](https://img.shields.io/scrutinizer/g/swatty007/laravel-context-prohibited-rule.svg?style=flat-square)](https://scrutinizer-ci.com/g/swatty007/laravel-context-prohibited-rule)
 [![Total Downloads](https://img.shields.io/packagist/dt/swatty007/laravel-context-prohibited-rule.svg?style=flat-square)](https://packagist.org/packages/swatty007/laravel-context-prohibited-rule)
