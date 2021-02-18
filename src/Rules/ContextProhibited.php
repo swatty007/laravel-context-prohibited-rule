@@ -61,12 +61,6 @@ class ContextProhibited implements Rule
         return true;
     }
 
-
-    public function validate($attribute, $value, $params): bool
-    {
-        return $this->passes($attribute, $value);
-    }
-
     public function message()
     {
         return __(
