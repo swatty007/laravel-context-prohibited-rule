@@ -16,19 +16,20 @@
         {
             "name": "Martin Niehoff",
             "email": "info@martin-niehoff.de",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://martin-niehoff.de"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^7.0|^8.0"
+        "php": "^8.1",
+        "illuminate/support": "^9.0|^10.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0|^5.0",
-        "phpunit/phpunit": "^8.0",
+        "friendsofphp/php-cs-fixer": "^2.18|^3",
+        "orchestra/testbench": "^v8.0.0",
         "phpmd/phpmd": "@stable",
         "phpmetrics/phpmetrics": "^2.7",
-        "friendsofphp/php-cs-fixer": "^2.18"
+        "phpunit/phpunit": "^10"
     },
     "autoload": {
         "psr-4": {
@@ -44,7 +45,7 @@
         "test": "vendor/bin/phpunit",
         "test-f": "vendor/bin/phpunit --filter",
         "test-coverage": "vendor/bin/phpunit --coverage-html ./build/coverage",
-        "format": "vendor/bin/php-cs-fixer fix --config=.php_cs.dist",
+        "format": "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php",
         "smell": "vendor/bin/phpmd src/ html cleancode,naming --reportfile ./build/phpmd.html",
         "metrics": "vendor/bin/phpmetrics --report-html=./build/metrics src/"
     },
