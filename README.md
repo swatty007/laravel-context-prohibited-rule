@@ -4,8 +4,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/swatty007/laravel-context-prohibited-rule.svg?style=flat-square)](https://packagist.org/packages/swatty007/laravel-context-prohibited-rule)
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Build Status](https://www.travis-ci.com/swatty007/laravel-context-prohibited-rule.svg?branch=main)](https://www.travis-ci.com/swatty007/laravel-context-prohibited-rule)
-[![StyleCI](https://github.styleci.io/repos/339864266/shield?branch=main)](https://github.styleci.io/repos/339864266?branch=main)
+[![Build Status](https://github.com/swatty007/laravel-context-prohibited-rule/actions/workflows/run-tests.yaml/badge.svg)](https://github.com/swatty007/laravel-context-prohibited-rule/actions/workflows/run-tests.yaml)
+[![Code Style](https://github.com/swatty007/laravel-context-prohibited-rule/actions/workflows/check-coding-standards.yaml/badge.svg)](https://github.com/swatty007/laravel-context-prohibited-rule/actions/workflows/check-coding-standards.yaml)
 [![Quality Score](https://img.shields.io/scrutinizer/g/swatty007/laravel-context-prohibited-rule.svg?style=flat-square)](https://scrutinizer-ci.com/g/swatty007/laravel-context-prohibited-rule)
 [![Total Downloads](https://img.shields.io/packagist/dt/swatty007/laravel-context-prohibited-rule.svg?style=flat-square)](https://packagist.org/packages/swatty007/laravel-context-prohibited-rule)
 
