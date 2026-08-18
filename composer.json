@@ -22,14 +22,14 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^10.0|^11.0"
+        "illuminate/support": "^10.0|^11.0|^12.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.18|^3",
-        "orchestra/testbench": "^v9.0.0",
+        "orchestra/testbench": "^v10.0.0",
         "phpmd/phpmd": "@stable",
         "phpmetrics/phpmetrics": "^2.7",
-        "phpunit/phpunit": "^10"
+        "phpunit/phpunit": "^11"
     },
     "autoload": {
         "psr-4": {
